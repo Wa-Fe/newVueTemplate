@@ -227,7 +227,8 @@ export default [
   ...pluginVue.configs["flat/essential"],
   {
     ignores: [
-      "eslint.config.js"
+      "eslint.config.js",
+      "vite.config.js"
     ]
   }
 ];
